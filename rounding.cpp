@@ -8,7 +8,7 @@
 #include <iostream>
 #include <string>
 
-float roundOffNumber(float &decimalNumber, int decimalPlaces) {
+float roundOffNumber(float decimalNumber, int decimalPlaces) {
     // This function rounds off numbers
     float roundedOff;
     int tempInt;
